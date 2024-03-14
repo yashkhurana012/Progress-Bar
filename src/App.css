@@ -1,0 +1,46 @@
+body{
+  background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+  width: 100%;
+  height: 100vh;
+
+}
+
+.progressBar{
+  width: 30rem;
+
+  background: transparent;
+  position: relative;
+  height: 2rem;
+  border-radius: 15px;
+}
+.box{
+  height: 100%;
+  position: absolute;
+  border-radius: 15px;
+  z-index: 2;
+  background: #550fb1;
+  transition: width 0.5s ease 0s;
+}
+span{
+  position: relative;
+  z-index: 3;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(243, 238, 238);
+    
+}
+h1,p{
+  color: white;
+  
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
