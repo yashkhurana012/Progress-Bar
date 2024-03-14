@@ -1,43 +1,43 @@
-body {
-  background-image: linear-gradient(to top, #000000 0%, #ffffff 52%, #ffffff 100%);
+body{
+  background-image: linear-gradient(to top, #131314 0%, #131315 52%, #151516 100%);
   width: 100%;
   height: 100vh;
+
 }
 
-.progressBar {
+.progressBar{
   width: 30rem;
+
   background: transparent;
   position: relative;
   height: 2rem;
   border-radius: 15px;
 }
-
-.box {
+.box{
   height: 100%;
   position: absolute;
   border-radius: 15px;
   z-index: 2;
-  background: #ffffff;
+  background: #f1eff4;
   transition: width 0.5s ease 0s;
 }
-
-span {
+span{
   position: relative;
   z-index: 3;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  font-size: 18px;
-  color: #000000;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(16, 13, 13);
+    
 }
-
-h1, p {
-  color: #ffffff;
+h1,p{
+  color: rgb(14, 13, 13);
+  
 }
-
-.main {
+.main{
   display: flex;
   flex-direction: column;
   justify-content: center;
